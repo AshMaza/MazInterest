@@ -1,0 +1,164 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    font-family:"Oswald";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+h3{
+    font-family:"Montserrat";
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+/* navbar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+}
+
+/* download-button */
+
+.download-btn{
+    margin: 5% 3% 0% 0%;
+}
+
+/* logo image */
+
+.logo{
+    width: 40%;
+    margin-left: 20%;
+}
+
+/* features-section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color:#ff4c68;
+    padding-bottom: 10%;
+}
+
+.icon :hover{
+    color:#8f8f8f;
+}
+
+
+/* pricing */
+
+.MM{
+    text-align: center;
+    padding: 2%;
+}
+
+.MMp{
+    text-align: center;
+}
+
+
+/* testimonials */
+
+#testimonials{
+    text-align: center;
+    color: white;
+    background-color: #ff4c68;
+}
+
+.Sachin{
+    width: 80%;
+    border-radius: 100%;
+    padding: 10%;
+    
+    
+}
+
+.Stats{
+    padding-top: 10%;
+    width: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.SP{
+    color: bisque;
+}
+
+@media (max-width:1080px){
+    #title{
+        text-align: center;
+    }
+    .logo{
+        padding: 10%;
+        width: 50%;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: bisque;
+    padding: 10%;
+}
+
+.end{
+    font-size: 3rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+/* footer */
+
+#footer{
+    padding: 10%;
+    text-align: center;
+}
+
+.last{
+    width: 10%;
+    padding-bottom: 5%;
+
+}
